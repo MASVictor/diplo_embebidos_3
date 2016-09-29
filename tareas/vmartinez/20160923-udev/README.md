@@ -5,6 +5,7 @@ or disconnected, I also modify an exercice done in class to get device
 information from `/sys` directory.
 
 The get the device information I use the following:
+
 	udevadm info -a path -n /dev/sdb1 (actually /dev/sdb1 was the id assigned it can change)
 	udevadm monitor --property
 
